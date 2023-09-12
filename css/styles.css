@@ -1,6 +1,7 @@
 body {
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	background-color: var(--white);
+	color: var(--slate);
 }
 
 li {
@@ -21,6 +22,15 @@ a {
 	color: var(--navy);
 }
 
+.header__contacts_link {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	letter-spacing: 0.32px;
+	color: var(--slate);
+}
+
 .first {
 	color: var(--iris);
 }
@@ -38,12 +48,10 @@ a {
 }
 
 .order__button {
-	font-family: Roboto;
 	padding: 16px 32px;
 	background-color: var(--iris);
 	text-align: center;
 	color: var(--white);
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 
 	cursor: pointer;
@@ -97,7 +105,6 @@ a {
 	font-weight: 400;
 	line-height: 150%;
 	letter-spacing: 0.32px;
-	color: var(--slate);
 }
 
 .team {
@@ -128,7 +135,6 @@ a {
 	font-weight: 400;
 	line-height: 150%;
 	letter-spacing: 0.32px;
-	color: var(--slate);
 }
 
 .portfolio__subtitle {
@@ -145,7 +151,6 @@ a {
 	font-weight: 400;
 	line-height: 150%;
 	letter-spacing: 0.32px;
-	color: var(--slate);
 }
 
 .footer {
