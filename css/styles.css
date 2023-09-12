@@ -38,6 +38,7 @@ a {
 }
 
 .order__button {
+	font-family: Roboto;
 	padding: 16px 32px;
 	background-color: var(--iris);
 	text-align: center;
@@ -53,7 +54,8 @@ a {
 	line-height: 150%;
 	letter-spacing: 0.64px;
 }
-.order__button:hover {
+.order__button:hover,
+.order__button:focus {
 	background-color: var(--ocean);
 }
 
