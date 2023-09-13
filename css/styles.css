@@ -53,6 +53,7 @@ a {
 }
 
 .order__button {
+	font-family: 'Roboto', sans-serif;
 	background-color: var(--iris);
 	text-align: center;
 	color: var(--white);
@@ -112,7 +113,7 @@ a {
 }
 
 .team {
-	background-color: var(--white);
+	background-color: var(--cloud);
 }
 
 .team__title {
@@ -124,6 +125,10 @@ a {
 	text-transform: capitalize;
 	text-align: center;
 	color: var(--navy);
+}
+
+.team__item {
+	background-color: var(--white);
 }
 
 .team__subtitle {
@@ -140,7 +145,7 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
-	letter-spacing: 0.22px;
+	letter-spacing: 0.2px;
 }
 
 .portfolio__title {
