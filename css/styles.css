@@ -26,6 +26,12 @@ a {
 	font-style: normal;
 }
 
+.header__item {
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+}
+
 .header__contacts_link {
 	font-size: 16px;
 	font-style: normal;
@@ -50,12 +56,16 @@ a {
 	color: var(--ocean);
 }
 
+.header__contacts_link:hover,
+.header__contacts_link:focus {
+	color: var(--ocean);
+}
+
 .order__button {
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--iris);
 	text-align: center;
 	color: var(--white);
-	border-radius: 4px;
 
 	cursor: pointer;
 
@@ -143,7 +153,7 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.02em;
 }
 
 .portfolio__title {
@@ -167,7 +177,7 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.02em;
 	color: var(--slate);
 }
 
