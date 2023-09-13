@@ -46,7 +46,7 @@ a {
 }
 
 .header__link {
-	line-height: 16px;
+	line-height: 150%;
 	letter-spacing: 4%;
 	color: var(--navy);
 }
