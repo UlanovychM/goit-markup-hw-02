@@ -40,8 +40,6 @@ a {
 }
 
 .header__link {
-	position: relative;
-
 	line-height: 16px;
 	letter-spacing: 4%;
 	color: var(--navy);
@@ -151,6 +149,8 @@ a {
 .portfolio__title {
 	text-align: center;
 	color: var(--bluemodal);
+	line-height: 150%;
+	letter-spacing: 0.2px;
 }
 
 .portfolio__subtitle {
